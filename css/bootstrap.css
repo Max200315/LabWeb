@@ -4404,7 +4404,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #128e80;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -4772,7 +4772,7 @@ a.label:focus {
 }
 .label-default[href]:hover,
 .label-default[href]:focus {
-  background-color: #5e5e5e;
+  background-color: #128e80;
 }
 .label-primary {
   background-color: #337ab7;
