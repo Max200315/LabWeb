@@ -57,6 +57,10 @@ $(document).ready(function() {
 		var a = $('.count-input').val();
 		AddToCard(4, a);
 	});
+	$('.ok-6').on('click', function() {
+		var a = $('.count-input').val();
+		AddToCard(5, a);
+	});
 	
 	
 	function AddToCard(n, amount){
@@ -137,6 +141,16 @@ $(document).ready(function() {
 			</div>`)
 			$('.product4').val("Product5");
 			$('.amount4').val(cart[i]);
+					break;
+							//var t = "Product6";
+					document.querySelector('.cart-body').insertAdjacentHTML(
+			'afterbegin',
+			`<div class="row">
+			<input readonly class="product5"></input>
+			<input readonly class="amount5"></input>
+			</div>`)
+			$('.product5').val("Product6");
+			$('.amount5').val(cart[i]);
 					break;
 
 				default:
